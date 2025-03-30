@@ -1,0 +1,59 @@
+@keyframes changeImage {
+    0%, 100% { content: url('/images/sharonBefore.png'); }
+    50% { content: url('/images/sharonAfter.png'); }
+}
+
+@keyframes changeImage2 {
+    0%, 100% { content: url('/images/wireframeHomeOne.png'); }
+    50% { content: url('/images/wireframeHomeTwo.png'); }
+}
+
+@keyframes changeImage3 {
+    0%, 100% { content: url('/images/sharonEventsBefore.png'); }
+    50% { content: url('/images/sharonEventsAfter.png'); }
+}
+
+@keyframes changeImage4 {
+    0%, 100% { content: url('/images/finalHomeOne.png'); }
+    50% { content: url('/images/finalHomeTwo.png'); }
+}
+
+@keyframes changeImage5 {
+    0%, 100% { content: url('/images/finalSubpageOne.png'); }
+    50% { content: url('/images/finalSubpageTwo.png'); }
+}
+
+.image-swap {
+    animation: changeImage 6s infinite;
+}
+
+.image-swap2 {
+    animation: changeImage2 6s infinite;
+}
+
+.image-swap3 {
+    animation: changeImage3 6s infinite;
+}
+
+.image-swap5 {
+    animation: changeImage4 6s infinite;
+}
+
+.image-swap4 {
+    animation: changeImage5 6s infinite;
+}
+
+h3{
+    scroll-margin-top: 80px;
+}
+
+@media only screen and (min-width: 992px) {
+    .image-swap {
+      width: 70%;
+      margin: auto;
+    }
+
+    #toc{
+        top:5rem;
+    }
+}

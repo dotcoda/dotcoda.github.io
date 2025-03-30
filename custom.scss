@@ -1,0 +1,16 @@
+// Define the custom primary color BEFORE importing Bootstrap
+$primary: #0DCAF0; 
+
+@font-face { 
+  src: url(https://cinni.net/fonts/basiic.ttf); 
+  font-family: basiic; /*adabelle*/
+}
+$headings-font-family: 'basiic', Courier, monospace;  // Change all headings (h1-h6)
+$navbar-font-family:  'basiic', Courier, monospace;  
+$link-decoration: none;
+$mark-color:#087990;
+$mark-bg:none;
+
+// Now import Bootstrap
+//sass --watch custom.scss:custom.css
+@import "node_modules/bootstrap/scss/bootstrap";
