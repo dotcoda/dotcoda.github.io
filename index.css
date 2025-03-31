@@ -9,7 +9,6 @@
 
 }
 
-
 body{
     background-image: url(/images/bg.gif);
     background-attachment: fixed;
@@ -34,7 +33,11 @@ body{
     text-decoration: underline;
 }
 
-    .mii {
-      width: 20%;
-      margin: auto;
-    }
+.mii {
+    width: 20%;
+    margin: auto;
+}
+
+.contactLink{
+    border-bottom: 1px dotted black;
+}
