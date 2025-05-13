@@ -1,8 +1,3 @@
-@keyframes changeImage {
-    0%, 100% { content: url('/images/sharonBefore.png'); }
-    50% { content: url('/images/sharonAfter.png'); }
-}
-
 @keyframes changeImage2 {
     0%, 100% { content: url('/images/wireframeHomeOne.png'); }
     50% { content: url('/images/wireframeHomeTwo.png'); }
@@ -45,6 +40,10 @@
 
 h3{
     scroll-margin-top: 80px;
+}
+
+.nav-second{
+    margin-left: 2em;
 }
 
 @media only screen and (min-width: 992px) {
